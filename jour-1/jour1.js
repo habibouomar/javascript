@@ -27,3 +27,15 @@ console.log(letters);
 var age = 32
 var template = "I'm " + age + " years old";
 console.log(template);
+console.log(`I'm ${age} years old`);
+
+//bonus
+
+var y = "je m\'apelle Omar \net je suis developpeur web"
+console.log(y);
+
+var x = "Bonjour la france"
+console.log(x.substring(1, 3));
+
+var changed = "bonjour"
+console.log(changed.replaceAll("o", "a"));
