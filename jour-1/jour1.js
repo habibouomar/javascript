@@ -19,9 +19,10 @@ var basicDown = basic.toLowerCase();
 console.log(basic);
 console.log(basicUp);
 console.log(basicDown);
+console.log({basic, basicUp, basicDown});
 
 var word = "banana"
-var letters = word.split("")
+var letters = word.split("");
 console.log(letters);
 
 var age = 32
