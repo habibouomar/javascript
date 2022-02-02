@@ -67,9 +67,7 @@ let result = ""
 for( let index = sentences.length - 1; index >= 0 ; index--){
 
   result+=sentences[index];
-
 }
-
 console.log(result);
 
 
