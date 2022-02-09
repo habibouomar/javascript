@@ -1,6 +1,6 @@
 // 03 - Map Names
 
-let longNames = [
+const longNames = [
 	{
 		firstName: "Jane",
 		lastName: "Doe"
@@ -11,14 +11,13 @@ let longNames = [
 	}
 ]
 
-let shortNames = longNames.map(function(person) {
+const shortNames = longNames.map((person) => {
 
-    let final = { 
+    const final = { 
         
         name: person.firstName + " " + person.lastName 
     
     }
-
     return final;
 });
 

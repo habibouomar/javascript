@@ -1,8 +1,8 @@
 // 02 - Map Double
 
-var array = [1, 2, 3, 4, 5];
+const array = [1, 2, 3, 4, 5];
 
-var double = array.map(function(arr) {
+const double = array.map((arr) => {
     return arr * 2;
   });
 
