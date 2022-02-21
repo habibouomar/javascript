@@ -1,0 +1,14 @@
+/*
+* À l'aide de la méthode map, créer un nouveau tableau qui contiendra les notes sur 20
+* exemples: [7, 9] devient [14, 18]
+*
+*/
+let notesSur10 = [2, 7, 9, 10, 6.5, 8.5];
+
+// Write your code here
+
+let noteSur20 = notesSur10.map(function(add) {
+    return add * 2;
+  });
+  
+  console.log(noteSur20); 
